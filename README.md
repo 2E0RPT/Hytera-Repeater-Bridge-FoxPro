@@ -1,4 +1,4 @@
-# Hytera-Repeater-Bridge-FoxPro
+# Hytera-Repeater-Bridge-FoxPro !!! STATUS: UNFINISHED (See ToDo.txt)
 Programming in Visual Fox Pro v6 &amp; v9 (Yes, quite old) Interfacing a PC with a Hytera RD985 Repeater over UDP using Hytera-Defined-Mode Protocol.
 
 Hi, My name is Rob, Let me start by saying I'm not an expert at any of this.
