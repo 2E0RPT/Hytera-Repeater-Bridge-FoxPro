@@ -13,7 +13,7 @@ UNFINISHED:
 10) Make a network connection to the APRS network (or UI compatible server).
 
 WORKING ON SOON:
-
+Bridge between APRS messages and DMR SMS Messages.
 
 
 SUGGESTIONS:
