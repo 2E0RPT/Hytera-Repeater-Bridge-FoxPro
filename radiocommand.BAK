@@ -1,0 +1,15 @@
+lparameters SMS_DEST, SMS_SENDER, SMS_NUMBER, SMS_MESSAGE
+*RadioCommand(Alltrim(STR(VAL(DESTIN_ID))), Alltrim(STR(VAL(SENDER_ID))), SMSNUM, Alltrim(SMSTEXT) )
+*messagebox("SMS_DEST: " + SMS_DEST + " SMS_SENDER: " + SMS_SENDER + " SMS_NUMBER: " + SMS_NUMBER + " SMS_MESSAGE: " + SMS_MESSAGE,0)
+SEND_COMMAND_REPLY = "Unknown command."
+
+If SMS_DEST = "200" AND Alltrim(Upper(SMS_MESSAGE)) = "/PING"
+ SEND_COMMAND_REPLY = "PONG!"
+EndIf
+
+If SMS_DEST = "200" AND Alltrim(Upper(SMS_MESSAGE)) = "/TIME"
+ SEND_COMMAND_REPLY = DMY(datetime()) + "   " + ttoc(datetime(),2)
+EndIf
+
+Return(SEND_COMMAND_REPLY)
+
