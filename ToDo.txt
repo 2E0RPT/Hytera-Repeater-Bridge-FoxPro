@@ -1,0 +1,19 @@
+DONE:
+1) Connect to repeater TMP(Text-Message_Protocol) & stay connected with keepalive packets.
+2) Decipher bytes sent from repeater when a message is sent from a DMR radio.
+3) Decipher bytes to be sent to repeater when a message is sent from the PC.
+4) Encode & Decode the 24bit's used for Dest_ID & Source_ID.
+5) Implement auto reply routines outside of the form (Eg: /ping & /time).
+6) Decipher $GNRMC GPS Data bytes from Baofeng DMX's DMR-APRS message.
+7) Encode UI standard APRS position reports from Baofeng standard position reports. 
+8) Simple system to convert Radio_ID's into freindly names.
+
+UNFINISHED:
+9) Detect when repeater communication is lost so we can try re-establish the connection.
+10) Make a network connection to the APRS network (or UI compatible server).
+
+WORKING ON SOON:
+
+
+
+SUGGESTIONS:
